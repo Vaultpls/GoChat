@@ -1,9 +1,8 @@
 <h1>GoChat!</h1>
 <h2>Features:</h2>
-**Chatrooms**
+**Chatrooms, Names, and Command Interpretation!**
 
-**Names**
-
-**Command interpretation**
+<h3>Current Problems:</h3>
+Broadcast doesn't work as expected
 
 Please add/remove/modify as you please! :D
