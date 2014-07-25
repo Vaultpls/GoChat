@@ -82,7 +82,7 @@ func (user *Newuser) handleConnection(conn net.Conn) {
 		} else if strings.HasPrefix(line, "/") {
 			user.CommandInterpretter(conn, line)
 		} else {
-			if user.Chatroom[conn] != "" || user.Name[conn] != "" || len(line) < 255 {
+			if user.Chatroom[conn] != "" && user.Name[conn] != "" && len(line) < 255 {
 				user.ChatroomBroadcast(conn, line)
 			}
 		}
